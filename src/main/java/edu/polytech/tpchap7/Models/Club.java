@@ -27,11 +27,11 @@ public class Club {
     List<Student> students;
 
 
-    public Set<Student> getTutorials() {
-        return (Set<Student>) students;
+    public List<Student> getStudents() {
+        return students;
     }
 
-    public void setTutorials(Set<Student> students) {
-        this.students = (List<Student>) students;
+    public void setStudents(List<Student> students) {
+        this.students =students;
     }
 }
